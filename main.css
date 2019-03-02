@@ -11,10 +11,10 @@ h4{font-size:20px}
 h5{font-size:18px}
 h6{font-size:16px}
 h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
+@media screen and (max-width:600px){
+  h1 {font-size:26px}}
 
-.main {text-align: center;}
 @media (max-width:600px){.main{margin-left:0!important;margin-right:0!important}  }
-
 .padding{padding:64px 8px 64px;}
 @media screen and (max-width:600px){.padding{padding:34px 0px 34px;font-size: 20px;}}
 .container{padding:0.01em 16px;}
@@ -30,6 +30,22 @@ h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
   color: #000000;
   position: relative;
 }
+
+.main {text-align: center;   padding: 30px;
+}
+
+.outer
+{
+     padding: 30px;
+     text-align: center;
+}
+.inner
+{
+     display: inline-block;
+     padding: 50px;
+}
+
+
 @media screen and (max-width:600px) {
   .rooster_sb {
     width: 250px;
@@ -152,7 +168,7 @@ bottom: -110px;
   .penis_circle1{
   left: 100px;
   top: 250px;
-}
+}}
 
 .penis_circle2 {
   border: 2px solid #000000;
@@ -169,6 +185,7 @@ bottom: -110px;
     left: 95px;
     top: 280px;
   }
+}
 
 .penis_circle3 {
   border: 2px solid #000000;
@@ -187,7 +204,7 @@ bottom: -110px;
     width: 80px;
     height: 80px;
   }
-
+}
 .penis_sb {
   width: 450px;
   height: 300px;
@@ -210,11 +227,95 @@ bottom: -110px;
   width: 300px;
   height: 150px;
 }
+}
+.center{
+     margin: 0 auto;
+     width: 100px;
+}
 
-#SFW {border: 5px solid #000000; padding: 1em 1em 1em 1em}
-#N {border: 5px solid #000000; padding: 1em 1em 1em 1em}
+.nsfw {
+	-moz-box-shadow: 13px 14px 14px -7px #9fb4f2;
+	-webkit-box-shadow: 13px 14px 14px -7px #9fb4f2;
+	box-shadow: 13px 14px 14px -7px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+	padding:18px 45px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.nsfw:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+.nsfw:active {
+	position:relative;
+	top:1px;
+}
 
 
+
+.sfw {
+	-moz-box-shadow: 13px 14px 14px -7px #276873;
+	-webkit-box-shadow: 13px 14px 14px -7px #276873;
+	box-shadow: 13px 14px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:18px 45px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.sfw:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.sfw:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*
 .push_button {
     position: relative;
     width:220px;
@@ -256,9 +357,9 @@ bottom: -110px;
     content: "";
 }
 
-.red {
+.nsfw {
     text-shadow:-1px -1px 0 #A84155;
-    background: #D25068;
+    background: grey;
     border:1px solid #D25068;
 
     background-image:-webkit-linear-gradient(top, #F66C7B, #D25068);
@@ -276,7 +377,7 @@ bottom: -110px;
     box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #AD4257, 0 4px 2px rgba(0, 0, 0, .5);
 }
 
-.red:hover {
+.nsfw:hover {
     background: #F66C7B;
     background-image:-webkit-linear-gradient(top, #D25068, #F66C7B);
     background-image:-moz-linear-gradient(top, #D25068, #F66C7B);
@@ -285,10 +386,10 @@ bottom: -110px;
     background-image:linear-gradient(top, #D25068, #F66C7B);
 }
 
-.blue {
-    text-shadow:-1px -1px 0 #2C7982;
-    background: #3EACBA;
-    border:1px solid #379AA4;
+.sfw {
+    text-shadow:-1px -1px 0 #000000;
+    background: #ffffff;
+    border:1px solid #000000;
     background-image:-webkit-linear-gradient(top, #48C6D4, #3EACBA);
     background-image:-moz-linear-gradient(top, #48C6D4, #3EACBA);
     background-image:-ms-linear-gradient(top, #48C6D4, #3EACBA);
@@ -304,8 +405,8 @@ bottom: -110px;
     box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
 }
 
-.blue:hover {
-    background: #48C6D4;
+.sfw:hover {
+    background: #ffffff;
     background-image:-webkit-linear-gradient(top, #3EACBA, #48C6D4);
     background-image:-moz-linear-gradient(top, #3EACBA, #48C6D4);
     background-image:-ms-linear-gradient(top, #3EACBA, #48C6D4);
