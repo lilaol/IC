@@ -29,6 +29,11 @@ h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
   position: relative;
 
 }
+@media (max-width:992px) {
+  .rooster_sb {
+    width: 350px;
+    height: 200px;
+  }
 
 .rooster_circle1 {
 border: 5px solid #000000;
@@ -39,8 +44,10 @@ padding: 20px;
 border-radius: 50%;
 right: 170px;
 bottom: -110px;
-
 }
+
+:
+
 .rooster_circle2 {
   border: 5px solid #000000;
   position: absolute;
@@ -70,6 +77,14 @@ bottom: -110px;
   background-repeat:   no-repeat;
   background-size:     cover;
 }
+@media (max-width:992px) {
+  .rooster_img {
+    top: 290px;
+    left: -110px;
+    width:  227px;
+    height: 250px;
+    }}
+
 
 .penis_img {
   position: relative;
@@ -234,7 +249,6 @@ Resources 1×0.5×0.25× Rerun
 
 
 
-@media (max-width:992px) {.rooster_img { top: 290px; left: -110px;}}
 @media (max-width:992px) {.rooster_circle3{ right: 155px; bottom: -205px;}}
 @media (max-width:992px) {.rooster_circle2{ right: 150px; bottom: -165px;}}
 @media (max-width:992px) {.rooster_circle1{ right: 125px; bottom: -110px;}}
