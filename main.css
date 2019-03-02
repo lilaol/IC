@@ -27,22 +27,8 @@ h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
   font-weight: 900;
   color: #000000;
   position: relative;
+}
 
-}
-@media screen and (max-width:600px) {
-  .rooster_sb {
-    width: 350px;
-    height: 200px;
-    border: 5px solid #000000;
-    padding: 0px 0px 0px 0px;
-    margin: 30px auto;
-    border-radius: 50%;
-    font-size: 18px;
-    font-weight: 900;
-    color: #000000;
-    position: relative;
-  }
-}
 .rooster_circle1 {
 border: 5px solid #000000;
 position: absolute;
@@ -257,11 +243,23 @@ bottom: -110px;
     background-image:linear-gradient(top, #3EACBA, #48C6D4);
 }
 
-Resources 1×0.5×0.25× Rerun
 
+@media screen and (max-width:600px) {
+  .rooster_sb {
+    width: 350px;
+    height: 200px;
+    border: 5px solid #000000;
+    padding: 0px 0px 0px 0px;
+    margin: 30px auto;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 900;
+    color: #000000;
+    position: relative;
+  }
+}
 
-
-@media (max-width:992px) {.rooster_circle3{ right: 155px; bottom: -205px;}}
-@media (max-width:992px) {.rooster_circle2{ right: 150px; bottom: -165px;}}
-@media (max-width:992px) {.rooster_circle1{ right: 125px; bottom: -110px;}}
-@media (max-width:992px) {.rooster_sb{font-size: 18px; width: 350px }}
+@media (max-width:600px) {.rooster_circle3{ right: 155px; bottom: -205px;}}
+@media (max-width:600px) {.rooster_circle2{ right: 150px; bottom: -165px;}}
+@media (max-width:600px) {.rooster_circle1{ right: 125px; bottom: -110px;}}
+@media (max-width:600px) {.rooster_sb{font-size: 18px; width: 350px }}
