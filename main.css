@@ -55,7 +55,6 @@ bottom: -110px;
 }
 
 
-
 .rooster_circle2 {
   border: 5px solid #000000;
   position: absolute;
@@ -87,12 +86,11 @@ bottom: -110px;
 }
 @media (max-width:992px) {
   .rooster_img {
-    top: 290px;
-    left: -110px;
+
     width:  227px;
     height: 250px;
-    }}
-
+    }
+  }
 
 .penis_img {
   position: relative;
