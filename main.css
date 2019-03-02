@@ -86,9 +86,14 @@ bottom: -110px;
 }
 @media (max-width:992px) {
   .rooster_img {
-
     width:  227px;
     height: 250px;
+    top: 270px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    position: relative;
+
     }
   }
 
