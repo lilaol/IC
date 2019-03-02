@@ -130,10 +130,12 @@ bottom: -110px;
   margin: 30px auto;
   border-radius: 50%;
 }
+
 @media screen and (max-width:600px) {
-.penis_img {
-  width:  227px;
-  height: 250px;
+  .penis_img  {
+    width:  227px;
+    height: 250px;
+  }
 }
 
 .penis_circle1 {
@@ -146,7 +148,11 @@ bottom: -110px;
   left: 145px;
   top: 340px;
 }
-
+@media screen and (max-width:600px) {
+  .penis_circle1{
+  left: 100px;
+  top: 250px;
+}
 
 .penis_circle2 {
   border: 2px solid #000000;
@@ -158,6 +164,11 @@ bottom: -110px;
   left: 140px;
   top: 370px;
 }
+@media screen and (max-width:600px) {
+  .penis_circle2{
+    left: 95px;
+    top: 280px;
+  }
 
 .penis_circle3 {
   border: 2px solid #000000;
@@ -169,6 +180,14 @@ bottom: -110px;
   left: 115px;
   top: 430px;
 }
+@media screen and (max-width:600px) {
+  .penis_circle3{
+    left: 80px;
+    top: 340px;
+    width: 80px;
+    height: 80px;
+  }
+
 .penis_sb {
   width: 450px;
   height: 300px;
@@ -184,6 +203,14 @@ bottom: -110px;
   top: 530px;
 
 }
+@media screen and (max-width:600px) {
+.penis_sb {
+  left: -35px;
+  top: 400px;
+  width: 300px;
+  height: 150px;
+}
+
 #SFW {border: 5px solid #000000; padding: 1em 1em 1em 1em}
 #N {border: 5px solid #000000; padding: 1em 1em 1em 1em}
 
