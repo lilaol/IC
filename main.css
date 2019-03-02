@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
     color: #000000;
     position: relative;
   }
-
+}
 .rooster_circle1 {
 border: 5px solid #000000;
 position: absolute;
@@ -84,7 +84,8 @@ bottom: -110px;
   background-repeat:   no-repeat;
   background-size:     cover;
 }
-@@media screen and (max-width:992px) {
+
+@@media screen and (max-width:600px) {
   .rooster_img {
     width:  227px;
     height: 250px;
